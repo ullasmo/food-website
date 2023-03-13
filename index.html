@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Margarine&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Food Website</title>
+    <style>
+      * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: "Margarine", cursive;
+      }
+      html {
+        scroll-behavior: smooth;
+        background-color: rgb(190, 246, 190);
+      }
+      .top {
+        width: 100%;
+        height: auto;
+        background-image: url(image/hero.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      header ul {
+        list-style-type: none;
+        margin: auto;
+        padding: 0;
+        overflow: hidden;
+        background-color: #014e04;
+        color: white;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      header li {
+        float: left;
+      }
+      header ul {
+        margin: auto;
+      }
+
+      header li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 8px 30px;
+        margin: 6px;
+        text-decoration: none;
+      }
+      header li a:hover {
+        background-color: rgb(153, 252, 144);
+        border-radius: 4px;
+        color: black;
+      }
+
+      .hero {
+        display: block;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      .hero ul {
+        display: block;
+        margin: auto;
+        padding: 10px;
+        margin-bottom: 30px;
+      }
+      .hero ul li {
+        display: block;
+        padding: 10px;
+        align-items: center;
+        text-decoration: none;
+      }
+      .hero ul li a {
+        text-decoration: none;
+        color: rgb(233, 252, 236);
+      }
+      .hero ul li a:hover {
+        background-color: rgb(153, 252, 144);
+        padding: 8px;
+        border-radius: 4px;
+        color: black;
+      }
+
+      .hero h1 {
+        padding-top: 20px;
+        color: white;
+      }
+
+      .img {
+        width: 40%;
+        height: auto;
+        display: block;
+        margin: 30px auto;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+          rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+      }
+      .img:hover {
+        scale: 1.01;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+          rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+      }
+      .content p {
+        text-align: center;
+      }
+      footer {
+        font-size: 12px;
+        height: 5%;
+        background-color: #014e04;
+        padding: 10px;
+        text-align: center;
+        margin-top: 10px;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top">
+      <header class="nav">
+        <ul>
+          <li><a href="#">Index</a></li>
+          <li><a href="#">Food</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </header>
+      <div class="hero">
+        <h1>Menu items</h1>
+        <ul>
+          <li><a href="#biryani">Biryani</a></li>
+          <li><a href="#dosa">Masala Dosa</a></li>
+          <li><a href="#north">North Meal</a></li>
+          <li><a href="#south">South Meal</a></li>
+          <li><a href="#curry">Chicken Curry</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="content">
+      <img src="image/biryani.jpeg" alt="Biryani" id="biryani" class="img" />
+      <p>Biryani</p>
+      <img src="image/dosa.jpeg" alt="Masala Dosa" id="dosa" class="img" />
+      <p>Masala Dosa</p>
+      <img
+        src="image/north meal.jpeg"
+        alt="North Meal"
+        id="north"
+        class="img"
+      />
+      <p>North Meal</p>
+      <img
+        src="image/south meal.jpeg"
+        alt="South Meal"
+        id="south"
+        class="img"
+      />
+      <p>South Meal</p>
+      <img
+        src="image/chicken curry.jpeg"
+        alt="Chicken Curry"
+        id="curry"
+        class="img"
+      />
+      <p>Chicken Curry</p>
+    </div>
+    <footer>Made with ❤ by Ullas :)</footer>
+  </body>
+</html>
